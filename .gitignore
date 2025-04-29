@@ -1,5 +1,6 @@
 # The website. what's the need of downloading the website of gioyeimg?
 website/
+# cannot ignore index.html in root
 
 # Mkdir files (used to make empty folders)
 mkdir
