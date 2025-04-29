@@ -6,50 +6,90 @@
     <title>Gioyeimg - The Custom Image Format</title>
     <link rel="icon" href="https://gioye.github.io/gioyeimg/sample/logofile.png">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        section {
-            padding: 2rem;
-            margin: 1rem;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            font-size: 2.5rem;
-            color: #333;
-        }
-        h3 {
-            font-size: 1.8rem;
-            color: #444;
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 1.2rem;
-            color: #555;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 2rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: white;
-        }
-    </style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.7;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+        color: #333;
+    }
+
+    header {
+        background: linear-gradient(90deg, #4a148c, #6a1b9a);
+        color: white;
+        padding: 1.5rem 0;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    section {
+        padding: 2rem;
+        margin: 2rem auto;
+        max-width: 900px;
+        background: linear-gradient(180deg, #ffffff, #fce4ec);
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease;
+    }
+
+    section:hover {
+        transform: translateY(-5px);
+    }
+
+    h1, h2 {
+        font-size: 2.5rem;
+        color: #6a1b9a;
+        font-family: 'Orbitron', sans-serif;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        color: #ad1457;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+        color: #444;
+    }
+
+    ul {
+        list-style-type: square;
+        padding-left: 2rem;
+        color: #555;
+    }
+
+    ul li:hover {
+        color: #6a1b9a;
+        font-weight: bold;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background: linear-gradient(90deg, #4a148c, #6a1b9a);
+        color: white;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1.1rem;
+    }
+
+    a {
+        color: #6a1b9a;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    a:hover {
+        color: #ad1457;
+    }
+</style>
 </head>
 <body>
 
