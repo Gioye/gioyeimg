@@ -1,6 +1,7 @@
 # Gioyeimg.js
 
 **Gioyeimg.js** is a CLI tool and Node.js library to encode and decode images using the custom `.gioyeimg` format — a simple and flexible format that supports both CSV and binary variations.
+It is also the first ever piece of software related to Gioyeimg!
 
 ## ✨ Features
 
