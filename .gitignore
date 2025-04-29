@@ -4,6 +4,9 @@ website/
 # Mkdir files (used to make empty folders)
 mkdir
 
+# Recovery file for README.md
+null.md
+
 # Logs
 logs
 *.log
